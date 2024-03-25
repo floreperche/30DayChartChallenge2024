@@ -1,47 +1,153 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import challengeList from "./data/challenge_list.json";
+  import Day1 from "./components/Day1.svelte";
+
+  let containerWidth;
+  $: chartWidth = containerWidth * 0.5;
+  $: chartHeight = chartWidth;
+
+  let selectedDay = challengeList[0];
 </script>
 
 <main>
-  <div>
-    <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
+  <div class="main-content" bind:clientWidth={containerWidth}>
+    <!-- Introduction -->
+    <div class="description">
+      <div class="introduction">
+        <h1>#30DayChartChallenge 2024</h1>
+        <p>
+          One data visualization a day, using the promt of the
+          #30DayCharChallenge (get to know the challenge).
+        </p>
+        <p>
+          As I moved recently in the country, my theme for this year is <span
+            >BRAZIL</span
+          >
+        </p>
+      </div>
+
+      <div class="calendar">
+        <p>Select a day:</p>
+        <div class="day-list">
+          {#each challengeList as day}
+            {#if day.available === "TRUE"}<div
+                class="available"
+                style="background-color: {selectedDay.day_count ===
+                day.day_count
+                  ? `${selectedDay.color}`
+                  : ''}; color: {selectedDay.day_count === day.day_count
+                  ? '#fffaf3'
+                  : ''}"
+                on:click={() => {
+                  selectedDay = day;
+                }}
+                on:keydown={() => {
+                  selectedDay = day;
+                }}
+                role="menuitem"
+                tabindex={1}
+              >
+                {day.day_count}
+              </div>
+            {:else}
+              <div style="color : #grey" class="unavailable">
+                {day.day_count}
+              </div>
+            {/if}
+          {/each}
+        </div>
+        <div
+          class="selected-theme"
+          style="background-color : {selectedDay.color}"
+        >
+          {selectedDay.theme}
+        </div>
+      </div>
+    </div>
+
+    <!-- Chart -->
+    <div class="chart">
+      <Day1 width={chartWidth} height={chartHeight} />
+    </div>
   </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
+  .main-content {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px;
   }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+
+  .description {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
+
+  h1 {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    margin: 0px 0px;
   }
-  .read-the-docs {
-    color: #888;
+
+  span {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .day-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .day-list div {
+    width: 8%;
+    text-align: center;
+    margin: 2px 7px;
+    padding: 6px 0px;
+    border-radius: 12px;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+  }
+
+  .available {
+    cursor: pointer;
+  }
+
+  .available:hover {
+    background-color: #f0e8de;
+  }
+
+  .unavailable {
+    color: rgb(185, 185, 185);
+  }
+
+  .selected-theme {
+    color: #fffaf3;
+    border-radius: 12px;
+    padding: 8px 12px;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+  }
+
+  .chart {
+    background-color: #172527;
+    max-width: 600px;
+    max-height: 600px;
   }
 </style>

@@ -1,0 +1,182 @@
+[
+  {
+    "day_count": 1,
+    "theme": "part-to-whole",
+    "color": "#172526",
+    "available": "TRUE"
+  },
+  {
+    "day_count": 2,
+    "theme": "neo",
+    "color": "#172527",
+    "available": "TRUE"
+  },
+  {
+    "day_count": 3,
+    "theme": "makeover",
+    "color": "#172528",
+    "available": "TRUE"
+  },
+  {
+    "day_count": 4,
+    "theme": "waffle",
+    "color": "#172529",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 5,
+    "theme": "diverging",
+    "color": "#172530",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 6,
+    "theme": "OECD",
+    "color": "#172531",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 7,
+    "theme": "hazards",
+    "color": "#172532",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 8,
+    "theme": "circular",
+    "color": "#172533",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 9,
+    "theme": "major/minor",
+    "color": "#172534",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 10,
+    "theme": "physical",
+    "color": "#172535",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 11,
+    "theme": "mobile-friendy",
+    "color": "#172536",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 12,
+    "theme": "Reuters Graphics",
+    "color": "#172537",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 13,
+    "theme": "family",
+    "color": "#172538",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 14,
+    "theme": "heatmap",
+    "color": "#172539",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 15,
+    "theme": "historical",
+    "color": "#172540",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 16,
+    "theme": "weather",
+    "color": "#172541",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 17,
+    "theme": "networks",
+    "color": "#172542",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 18,
+    "theme": "Asian Development Bank",
+    "color": "#172543",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 19,
+    "theme": "dinosaurs",
+    "color": "#172544",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 20,
+    "theme": "correlation",
+    "color": "#172545",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 21,
+    "theme": "green energy",
+    "color": "#172546",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 22,
+    "theme": "mobility",
+    "color": "#172547",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 23,
+    "theme": "tiles",
+    "color": "#172548",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 24,
+    "theme": "ILO Region for Africa",
+    "color": "#172549",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 25,
+    "theme": "global change",
+    "color": "#172550",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 26,
+    "theme": "ai",
+    "color": "#172551",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 27,
+    "theme": "good-bad",
+    "color": "#172552",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 28,
+    "theme": "trend",
+    "color": "#172553",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 29,
+    "theme": "black'n'white",
+    "color": "#172554",
+    "available": "FALSE"
+  },
+  {
+    "day_count": 30,
+    "theme": "FiveThirtyEight",
+    "color": "#172555",
+    "available": "FALSE"
+  }
+]

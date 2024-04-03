@@ -2,20 +2,20 @@
   {
     "day_count": 1,
     "theme": "part-to-whole",
-    "color": "#172526",
+    "color": "#209168",
     "available": "TRUE"
   },
   {
     "day_count": 2,
     "theme": "neo",
-    "color": "#172527",
+    "color": "#271B45",
     "available": "TRUE"
   },
   {
     "day_count": 3,
     "theme": "makeover",
     "color": "#172528",
-    "available": "TRUE"
+    "available": "FALSE"
   },
   {
     "day_count": 4,

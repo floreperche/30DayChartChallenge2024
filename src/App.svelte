@@ -1,10 +1,12 @@
 <script>
   import challengeList from "./data/challenge_list.json";
-  import Day1 from "./components/Day1.svelte";
+  import Day1 from "./components/day1/Day1.svelte";
+  import Day2 from "./components/day2/Day2.svelte";
 
   let containerWidth;
-  $: chartWidth = containerWidth * 0.5;
+  $: chartWidth = containerWidth > 1200 ? 600 : containerWidth * 0.5;
   $: chartHeight = chartWidth;
+  $: console.log("total", containerWidth, "chart", chartWidth);
 
   let selectedDay = challengeList[0];
 </script>
@@ -67,7 +69,10 @@
 
     <!-- Chart -->
     <div class="chart">
-      <Day1 width={chartWidth} height={chartHeight} />
+      {#if selectedDay.day_count === 1}
+        <Day1 width={chartWidth} height={chartHeight} />
+      {:else if selectedDay.day_count === 2}
+        <Day2 width={chartWidth} height={chartHeight} />{/if}
     </div>
   </div>
 </main>
@@ -146,8 +151,8 @@
   }
 
   .chart {
-    background-color: #172527;
     max-width: 600px;
     max-height: 600px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
 </style>

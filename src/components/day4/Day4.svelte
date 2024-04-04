@@ -1,25 +1,49 @@
 <script>
+  import Waffle from "./Waffle.svelte";
+  import data from "./data.json";
   import logo from "./logo.svg";
+  import { scaleOrdinal } from "d3";
+  import sudesteMap from "./sudeste.png";
+  import nordesteMap from "./nordeste.png";
+  import sulMap from "./sul.png";
+  import norteMap from "./norte.png";
+  import centrooesteMap from "./centrooeste.png";
 
   export let width;
   export let height;
-  $: chartHeight = height / 2;
+
+  const colorRange = ["#F895CC", "#DC120E", "#F99506", "#703EA0", "#209168"];
+
+  const colorScale = scaleOrdinal()
+    .domain([data.map((e) => e.region)])
+    .range(colorRange);
+
+  const mapRange = [sudesteMap, nordesteMap, sulMap, norteMap, centrooesteMap];
 </script>
 
 <div style="width: {width}px; height: {height}px" class="chart-container">
   <div class="intro">
-    <h2>Title</h2>
-    <p>Description</p>
+    <h2>The great disparities of population between the regions of Brazil</h2>
+    <p>
+      More than 200 millions of people live in Brazil. The most populated region
+      is the Sudeste, which includes the cities of Rio de Janeiro and São Paulo.
+    </p>
   </div>
 
-  <svg {width} height={chartHeight}> </svg>
-
-  <div class="comment">
-    <p>Source:</p>
+  <div class="chart">
+    {#each data as region, i}<Waffle
+        data={region}
+        {colorScale}
+        map={mapRange[i]}
+      />
+    {/each}
   </div>
 
   <div class="footer">
     <div class="footer-infos">
+      <div class="comment">
+        <p>Source: Instituto Brasileiro de Geografia e Estatística</p>
+      </div>
       <p class="challenge">#30DayChartChallenge 2024</p>
     </div>
     <img src={logo} alt="wild variables logo" class="logo" />
@@ -38,6 +62,10 @@
     padding: 3vh;
   }
 
+  .intro p {
+    margin-bottom: 0px;
+  }
+
   h2 {
     font-family: "Londrina Solid", sans-serif;
     font-weight: 400;
@@ -49,6 +77,12 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
+  }
+
+  .chart {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
   }
 
   .footer {
@@ -70,10 +104,6 @@
 
   .footer-infos p {
     margin: 0;
-  }
-
-  .comment {
-    padding: 0 3vh;
   }
 
   .comment p {

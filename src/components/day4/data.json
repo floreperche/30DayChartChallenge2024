@@ -1,0 +1,27 @@
+[
+  {
+    "region": "Sudeste",
+    "population": 84840113,
+    "percentage": 42
+  },
+  {
+    "region": "Nordeste",
+    "population": 54658515,
+    "percentage": 27
+  },
+  {
+    "region": "Sul",
+    "population": 29937706,
+    "percentage": 15
+  },
+  {
+    "region": "Norte",
+    "population": 17354884,
+    "percentage": 9
+  },
+  {
+    "region": "Centro-Oeste",
+    "population": 16289538,
+    "percentage": 8
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "year": 2023,
+    "gremio": 2,
+    "inter": 9
+  },
+  {
+    "year": 2022,
+    "gremio": 23,
+    "inter": 2
+  },
+  {
+    "year": 2021,
+    "gremio": 17,
+    "inter": 12
+  },
+  {
+    "year": 2020,
+    "gremio": 6,
+    "inter": 2
+  },
+  {
+    "year": 2019,
+    "gremio": 4,
+    "inter": 7
+  },
+  {
+    "year": 2018,
+    "gremio": 4,
+    "inter": 3
+  },
+  {
+    "year": 2017,
+    "gremio": 4,
+    "inter": 23
+  },
+  {
+    "year": 2016,
+    "gremio": 9,
+    "inter": 17
+  },
+  {
+    "year": 2015,
+    "gremio": 3,
+    "inter": 5
+  },
+  {
+    "year": 2014,
+    "gremio": 7,
+    "inter": 3
+  }
+]

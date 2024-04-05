@@ -3,7 +3,7 @@
   export let colorScale;
   export let map;
   const waffle = Array.from({ length: 100 });
-  console.log(data);
+  //   console.log(data);
   const value = data.percentage;
 </script>
 

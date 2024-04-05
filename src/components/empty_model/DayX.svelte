@@ -14,12 +14,11 @@
 
   <svg {width} height={chartHeight}> </svg>
 
-  <div class="comment">
-    <p>Source:</p>
-  </div>
-
   <div class="footer">
     <div class="footer-infos">
+      <div class="comment">
+        <p>Source:</p>
+      </div>
       <p class="challenge">#30DayChartChallenge 2024</p>
     </div>
     <img src={logo} alt="wild variables logo" class="logo" />
@@ -70,10 +69,6 @@
 
   .footer-infos p {
     margin: 0;
-  }
-
-  .comment {
-    padding: 0 3vh;
   }
 
   .comment p {

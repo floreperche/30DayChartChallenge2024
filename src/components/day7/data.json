@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Metynnis altidorsalis",
+    "size": 11,
+    "conservation_status_UICN": "NE",
+    "social": "group",
+    "food": "Herbivore"
+  },
+  {
+    "id": 2,
+    "name": "Metynnis argenteus",
+    "size": 12,
+    "conservation_status_UICN": "LC",
+    "social": "shoal",
+    "food": "Omnivore, almost herbivore"
+  },
+  {
+    "id": 3,
+    "name": "Silver dollar rayé",
+    "size": 9,
+    "conservation_status_UICN": "LC",
+    "social": "group",
+    "food": "Omnivore, almost herbivore"
+  },
+  {
+    "id": 4,
+    "name": "dollar d'argent",
+    "size": 16,
+    "conservation_status_UICN": "NE",
+    "social": "shoal",
+    "food": "Omnivore, almost herbivore"
+  },
+  {
+    "id": 5,
+    "name": "piranha à côtes",
+    "size": 14,
+    "conservation_status_UICN": "NE",
+    "social": "shoal",
+    "food": "Omnivore, almost herbivore"
+  },
+  {
+    "id": 6,
+    "name": "Silver dollar",
+    "size": 9,
+    "conservation_status_UICN": "NE",
+    "social": "group",
+    "food": "Herbivore"
+  },
+  {
+    "id": 7,
+    "name": "Metynnis sp. Big Spot Peru",
+    "size": 10,
+    "conservation_status_UICN": "NE",
+    "social": "shoal",
+    "food": "Omnivore, almost herbivore"
+  },
+  {
+    "id": 8,
+    "name": "Pacu blanc",
+    "size": 20,
+    "conservation_status_UICN": "NE",
+    "social": "group",
+    "food": "Omnivore, almost herbivore"
+  },
+  {
+    "id": 9,
+    "name": "pakousi, pacoucine",
+    "size": 35,
+    "conservation_status_UICN": "NE",
+    "social": "group",
+    "food": "Herbivore"
+  },
+  {
+    "id": 10,
+    "name": "Myloplus schomburgkii",
+    "size": 15,
+    "conservation_status_UICN": "NE",
+    "social": "group",
+    "food": "Herbivore"
+  },
+  {
+    "id": 11,
+    "name": "Silver dollar",
+    "size": 30,
+    "conservation_status_UICN": "NE",
+    "social": "colony",
+    "food": "Herbivore"
+  },
+  {
+    "id": 12,
+    "name": "piranha tacheté",
+    "size": 30,
+    "conservation_status_UICN": "NE",
+    "social": "shoal",
+    "food": "Carnivore"
+  },
+  {
+    "id": 13,
+    "name": "piranha à ventre rouge",
+    "size": 30,
+    "conservation_status_UICN": "NE",
+    "social": "gregarious",
+    "food": "Carnivore"
+  },
+  {
+    "id": 14,
+    "name": "piranha à queue noire",
+    "size": 30,
+    "conservation_status_UICN": "LC",
+    "social": "shoal",
+    "food": "Carnivore"
+  },
+  {
+    "id": 15,
+    "name": "Serrasalmus compressus",
+    "size": 20,
+    "conservation_status_UICN": "NE",
+    "social": "group",
+    "food": "Carnivore"
+  },
+  {
+    "id": 16,
+    "name": "Piranha de Gery",
+    "size": 15,
+    "conservation_status_UICN": "LC",
+    "social": "group",
+    "food": "Carnivore"
+  },
+  {
+    "id": 17,
+    "name": "Serrasalmus manueli",
+    "size": 25,
+    "conservation_status_UICN": "NE",
+    "social": "group",
+    "food": "Carnivore"
+  },
+  {
+    "id": 18,
+    "name": "piranha noir",
+    "size": 40,
+    "conservation_status_UICN": "NE",
+    "social": "group",
+    "food": "Carnivore"
+  },
+  {
+    "id": 19,
+    "name": "piranha à bande sombre",
+    "size": 25,
+    "conservation_status_UICN": "NE",
+    "social": "group",
+    "food": "Carnivore"
+  }
+]

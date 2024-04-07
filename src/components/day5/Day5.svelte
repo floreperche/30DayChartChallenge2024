@@ -32,12 +32,12 @@
 <div style="width: {width}px; height: {height}px" class="chart-container">
   <div class="intro">
     <h2>
-      The <span style="color : #0884BD">Gremio</span> vs.
-      <span style="color : #E4050F">Inter</span> rivality
+      The <span style="color : #0884BD">Grêmio</span> vs.
+      <span style="color : #E4050F">Internacional</span> rivality
     </h2>
     <div class="description">
       <p>
-        Gremio and Inter are the two famous, historic and rival brazilian
+        Grêmio and Inter are the two famous, historic and rival brazilian
         football clubs of the city of Porto Alegre. Surprisingly, their average
         rankings in the Brasileirão Série A Championship over the last decade
         are nearly identical.
@@ -55,7 +55,7 @@
               stroke-width="2"
               stroke-dasharray="8"
             /></svg
-          ><span style="color : #0884BD">Gremio: 6.22</span>
+          ><span style="color : #0884BD">Grêmio: 6.22</span>
         </p>
         <p>
           <svg width="30" height="10" style=" padding:0px"
@@ -138,7 +138,7 @@
         text-anchor="start"
         dominant-baseline="middle"
         fill="#0884BD"
-        class="name">Gremio</text
+        class="name">Grêmio</text
       >
       <text
         x={xScale(2023.5)}

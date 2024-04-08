@@ -4,6 +4,7 @@
   export let width;
   export let height;
   $: chartHeight = height / 2;
+  $: chartWidth = width - 50;
 </script>
 
 <div style="width: {width}px; height: {height}px" class="chart-container">
@@ -48,6 +49,10 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
+  }
+
+  .intro p {
+    margin-bottom: 0px;
   }
 
   .footer {

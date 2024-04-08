@@ -63,8 +63,8 @@
     <h2>What do piranhas eat?</h2>
     <p>
       Contrary to popular belief, piranhas, which are mainly present in South
-      America's rivers, consist of a variety of species with diverse diets. And
-      human is not really part of these.
+      America's rivers, consist of a variety of species with diverse diets.
+      Attacks on human being are very rare.
     </p>
     <p class="annotation">
       Each <img src={round} alt="legend" style="width:2%" /> is a Piranha specie

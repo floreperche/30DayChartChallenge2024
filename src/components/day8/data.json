@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Construção",
+    "singer": "Chico Buarque",
+    "year": 1971,
+    "min": 6,
+    "sec": 24,
+    "duration": "6,40",
+    "style": "MPB"
+  },
+  {
+    "id": 2,
+    "title": "Águas de Março",
+    "singer": "E. Regina & T. Jobim",
+    "year": 1974,
+    "min": 3,
+    "sec": 34,
+    "duration": "3,57",
+    "style": "MPB"
+  },
+  {
+    "id": 3,
+    "title": "Carinhoso",
+    "singer": "Pixinguinha",
+    "year": 1917,
+    "min": 1,
+    "sec": 52,
+    "duration": "1,87",
+    "style": "Choro"
+  },
+  {
+    "id": 4,
+    "title": "Asa Branca",
+    "singer": "Luiz Gonzaga",
+    "year": 1947,
+    "min": 2,
+    "sec": 49,
+    "duration": "2,82",
+    "style": "Forró"
+  },
+  {
+    "id": 5,
+    "title": "Mas Que Nada",
+    "singer": "Jorge Ben",
+    "year": 1963,
+    "min": 2,
+    "sec": 59,
+    "duration": "2,98",
+    "style": "Samba"
+  },
+  {
+    "id": 6,
+    "title": "Chega de Saudade",
+    "singer": "João Gilberto",
+    "year": 1959,
+    "min": 2,
+    "sec": 0,
+    "duration": "2,00",
+    "style": "Bossa nova"
+  },
+  {
+    "id": 7,
+    "title": "Panis et Circencis",
+    "singer": "Os Mutantes",
+    "year": 1968,
+    "min": 3,
+    "sec": 40,
+    "duration": "3,67",
+    "style": "Tropicália"
+  },
+  {
+    "id": 8,
+    "title": "Detalhes",
+    "singer": "Roberto Carlos",
+    "year": 1971,
+    "min": 5,
+    "sec": 3,
+    "duration": "5,05",
+    "style": "MPB"
+  },
+  {
+    "id": 9,
+    "title": "Canto de Ossanha",
+    "singer": "B. Powell/ V. de Moraes",
+    "year": 1966,
+    "min": 3,
+    "sec": 24,
+    "duration": "3,40",
+    "style": "MPB"
+  },
+  {
+    "id": 10,
+    "title": "Alegria, Alegria",
+    "singer": "Caetano Veloso",
+    "year": 1967,
+    "min": 2,
+    "sec": 48,
+    "duration": "2,80",
+    "style": "Tropicália"
+  }
+]

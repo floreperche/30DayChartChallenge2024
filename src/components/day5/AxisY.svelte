@@ -26,7 +26,6 @@
         stroke-width="0.4"
         stroke-opacity={i % 2 === 0 ? "100%" : "50%"}
       />
-      {console.log(i % 2)}
     </g>
   {/each}
   <text

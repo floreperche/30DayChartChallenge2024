@@ -51,13 +51,13 @@
     "day_count": 9,
     "theme": "major/minor",
     "color": "#172534",
-    "available": "FALSE"
+    "available": "TRUE"
   },
   {
     "day_count": 10,
     "theme": "physical",
     "color": "#172535",
-    "available": "FALSE"
+    "available": "TRUE"
   },
   {
     "day_count": 11,

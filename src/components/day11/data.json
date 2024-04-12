@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "category": "of Brazilians use Whatsapp to comunicate with companies",
+    "value": 79
+  },
+  {
+    "id": 2,
+    "category": "have Whatsapp but don't communicate with companies there",
+    "value": 20
+  },
+  {
+    "id": 3,
+    "category": "do not have Whatsapp",
+    "value": 1
+  }
+]

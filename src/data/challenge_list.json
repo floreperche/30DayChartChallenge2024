@@ -68,14 +68,14 @@
   {
     "day_count": 12,
     "theme": "Reuters Graphics",
-    "color": "#172537",
+    "color": "#f99506",
     "available": "TRUE"
   },
   {
     "day_count": 13,
     "theme": "family",
-    "color": "#172538",
-    "available": "FALSE"
+    "color": "#209168",
+    "available": "TRUE"
   },
   {
     "day_count": 14,

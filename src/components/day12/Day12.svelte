@@ -213,8 +213,8 @@
   }
 
   .challenge {
-    background-color: #172529;
-    color: #fffaf3;
+    background-color: #f99506;
+    color: #172529;
     padding: 2px 6px;
     font-family: "Londrina Solid", sans-serif;
     font-size: 16px;

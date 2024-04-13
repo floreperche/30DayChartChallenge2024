@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "year": 2022,
+    "month_id": 1,
+    "value": 326670
+  },
+  {
+    "id": 2,
+    "year": 2022,
+    "month_id": 2,
+    "value": 311342
+  },
+  {
+    "id": 3,
+    "year": 2022,
+    "month_id": 3,
+    "value": 276708
+  },
+  {
+    "id": 4,
+    "year": 2022,
+    "month_id": 4,
+    "value": 306795
+  },
+  {
+    "id": 5,
+    "year": 2022,
+    "month_id": 5,
+    "value": 202256
+  },
+  {
+    "id": 6,
+    "year": 2022,
+    "month_id": 6,
+    "value": 192909
+  },
+  {
+    "id": 7,
+    "year": 2022,
+    "month_id": 7,
+    "value": 289581
+  },
+  {
+    "id": 8,
+    "year": 2022,
+    "month_id": 8,
+    "value": 263626
+  },
+  {
+    "id": 9,
+    "year": 2022,
+    "month_id": 9,
+    "value": 273004
+  },
+  {
+    "id": 10,
+    "year": 2022,
+    "month_id": 10,
+    "value": 305644
+  },
+  {
+    "id": 11,
+    "year": 2022,
+    "month_id": 11,
+    "value": 352458
+  },
+  {
+    "id": 12,
+    "year": 2022,
+    "month_id": 12,
+    "value": 529038
+  },
+  {
+    "id": 13,
+    "year": 2021,
+    "month_id": 1,
+    "value": 71989
+  },
+  {
+    "id": 14,
+    "year": 2021,
+    "month_id": 2,
+    "value": 48096
+  },
+  {
+    "id": 15,
+    "year": 2021,
+    "month_id": 3,
+    "value": 32439
+  },
+  {
+    "id": 16,
+    "year": 2021,
+    "month_id": 4,
+    "value": 18428
+  },
+  {
+    "id": 17,
+    "year": 2021,
+    "month_id": 5,
+    "value": 23713
+  },
+  {
+    "id": 18,
+    "year": 2021,
+    "month_id": 6,
+    "value": 24070
+  },
+  {
+    "id": 19,
+    "year": 2021,
+    "month_id": 7,
+    "value": 60270
+  },
+  {
+    "id": 20,
+    "year": 2021,
+    "month_id": 8,
+    "value": 40410
+  },
+  {
+    "id": 21,
+    "year": 2021,
+    "month_id": 9,
+    "value": 50675
+  },
+  {
+    "id": 22,
+    "year": 2021,
+    "month_id": 10,
+    "value": 93824
+  },
+  {
+    "id": 23,
+    "year": 2021,
+    "month_id": 11,
+    "value": 107123
+  },
+  {
+    "id": 24,
+    "year": 2021,
+    "month_id": 12,
+    "value": 174834
+  },
+  {
+    "id": 25,
+    "year": 2020,
+    "month_id": 1,
+    "value": 873295
+  },
+  {
+    "id": 26,
+    "year": 2020,
+    "month_id": 2,
+    "value": 812726
+  },
+  {
+    "id": 27,
+    "year": 2020,
+    "month_id": 3,
+    "value": 290234
+  },
+  {
+    "id": 28,
+    "year": 2020,
+    "month_id": 4,
+    "value": 559
+  },
+  {
+    "id": 29,
+    "year": 2020,
+    "month_id": 5,
+    "value": 517
+  },
+  {
+    "id": 30,
+    "year": 2020,
+    "month_id": 6,
+    "value": 655
+  },
+  {
+    "id": 31,
+    "year": 2020,
+    "month_id": 7,
+    "value": 1459
+  },
+  {
+    "id": 32,
+    "year": 2020,
+    "month_id": 8,
+    "value": 8305
+  },
+  {
+    "id": 33,
+    "year": 2020,
+    "month_id": 9,
+    "value": 12010
+  },
+  {
+    "id": 34,
+    "year": 2020,
+    "month_id": 10,
+    "value": 24751
+  },
+  {
+    "id": 35,
+    "year": 2020,
+    "month_id": 11,
+    "value": 41606
+  },
+  {
+    "id": 36,
+    "year": 2020,
+    "month_id": 12,
+    "value": 80318
+  },
+  {
+    "id": 37,
+    "year": 2019,
+    "month_id": 1,
+    "value": 863301
+  },
+  {
+    "id": 38,
+    "year": 2019,
+    "month_id": 2,
+    "value": 816032
+  },
+  {
+    "id": 39,
+    "year": 2019,
+    "month_id": 3,
+    "value": 611372
+  },
+  {
+    "id": 40,
+    "year": 2019,
+    "month_id": 4,
+    "value": 497309
+  },
+  {
+    "id": 41,
+    "year": 2019,
+    "month_id": 5,
+    "value": 343094
+  },
+  {
+    "id": 42,
+    "year": 2019,
+    "month_id": 6,
+    "value": 400237
+  },
+  {
+    "id": 43,
+    "year": 2019,
+    "month_id": 7,
+    "value": 459827
+  },
+  {
+    "id": 44,
+    "year": 2019,
+    "month_id": 8,
+    "value": 417794
+  },
+  {
+    "id": 45,
+    "year": 2019,
+    "month_id": 9,
+    "value": 407235
+  },
+  {
+    "id": 46,
+    "year": 2019,
+    "month_id": 10,
+    "value": 413170
+  },
+  {
+    "id": 47,
+    "year": 2019,
+    "month_id": 11,
+    "value": 471671
+  },
+  {
+    "id": 48,
+    "year": 2019,
+    "month_id": 12,
+    "value": 652099
+  }
+]

@@ -81,7 +81,7 @@
     "day_count": 14,
     "theme": "heatmap",
     "color": "#172539",
-    "available": "FALSE"
+    "available": "TRUE"
   },
   {
     "day_count": 15,

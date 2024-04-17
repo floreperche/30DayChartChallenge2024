@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Marta",
+    "goals": 116,
+    "caps": 184,
+    "average": 0.63,
+    "years": "2003-",
+    "active": "TRUE",
+    "genre": "w"
+  },
+  {
+    "id": 2,
+    "name": "Christiane",
+    "goals": 96,
+    "caps": 153,
+    "average": 0.63,
+    "years": "2003-",
+    "active": "TRUE",
+    "genre": "w"
+  },
+  {
+    "id": 3,
+    "name": "Neymar",
+    "goals": 79,
+    "caps": 128,
+    "average": 0.62,
+    "years": "2010–present",
+    "active": "TRUE",
+    "genre": "m"
+  },
+  {
+    "id": 4,
+    "name": "Pelé",
+    "goals": 77,
+    "caps": 92,
+    "average": 0.84,
+    "years": "1957–1971",
+    "active": "FALSE",
+    "genre": "m"
+  },
+  {
+    "id": 5,
+    "name": "Ronaldo",
+    "goals": 62,
+    "caps": 98,
+    "average": 0.63,
+    "years": "1994–2011",
+    "active": "FALSE",
+    "genre": "m"
+  }
+]

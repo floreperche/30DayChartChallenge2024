@@ -87,13 +87,13 @@
     "day_count": 15,
     "theme": "historical",
     "color": "#172540",
-    "available": "FALSE"
+    "available": "TRUE"
   },
   {
     "day_count": 16,
     "theme": "weather",
     "color": "#172541",
-    "available": "FALSE"
+    "available": "TRUE"
   },
   {
     "day_count": 17,

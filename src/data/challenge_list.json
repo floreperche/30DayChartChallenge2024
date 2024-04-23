@@ -99,13 +99,13 @@
     "day_count": 17,
     "theme": "networks",
     "color": "#172542",
-    "available": "FALSE"
+    "available": "TRUE"
   },
   {
     "day_count": 18,
     "theme": "Asian Development Bank",
     "color": "#172543",
-    "available": "FALSE"
+    "available": "TRUE"
   },
   {
     "day_count": 19,

@@ -18,6 +18,8 @@
   import Day16 from "./components/day16/Day16.svelte";
   import Day17 from "./components/day17/Day17.svelte";
   import Day18 from "./components/day18/Day18.svelte";
+  import Day19 from "./components/day19/Day19.svelte";
+  import Day20 from "./components/day20/Day20.svelte";
 
   let containerWidth;
   $: chartWidth = containerWidth > 1200 ? 600 : containerWidth * 0.5;
@@ -119,7 +121,11 @@
       {:else if selectedDay.day_count === 17}
         <Day17 width={chartWidth} height={chartHeight} />
       {:else if selectedDay.day_count === 18}
-        <Day18 width={chartWidth} height={chartHeight} />{/if}
+        <Day18 width={chartWidth} height={chartHeight} />
+      {:else if selectedDay.day_count === 19}
+        <Day19 width={chartWidth} height={chartHeight} />
+      {:else if selectedDay.day_count === 20}
+        <Day20 width={chartWidth} height={chartHeight} />{/if}
     </div>
   </div>
 </main>

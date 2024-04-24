@@ -111,13 +111,13 @@
     "day_count": 19,
     "theme": "dinosaurs",
     "color": "#172544",
-    "available": "FALSE"
+    "available": "TRUE"
   },
   {
     "day_count": 20,
     "theme": "correlation",
-    "color": "#172545",
-    "available": "FALSE"
+    "color": "#FD620A",
+    "available": "TRUE"
   },
   {
     "day_count": 21,

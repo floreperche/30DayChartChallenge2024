@@ -1,0 +1,62 @@
+[
+  {
+    "city": "São Paulo (SP)",
+    "ciclovias": 689.1,
+    "pop": 12200180,
+    "for_100mil": 5.64
+  },
+  {
+    "city": "Rio de Janeiro (RJ)",
+    "ciclovias": 487,
+    "pop": 6625849,
+    "for_100mil": 7.35
+  },
+  {
+    "city": "Brasília (DF)",
+    "ciclovias": 636.89,
+    "pop": 2923369,
+    "for_100mil": 21.79
+  },
+  {
+    "city": "Salvador (BA)",
+    "ciclovias": 306.64,
+    "pop": 2610987,
+    "for_100mil": 11.74
+  },
+  {
+    "city": "Fortaleza (CE)",
+    "ciclovias": 419.2,
+    "pop": 2596157,
+    "for_100mil": 16.15
+  },
+  {
+    "city": "Belo Horizonte (MG)",
+    "ciclovias": 105.78,
+    "pop": 2392678,
+    "for_100mil": 4.42
+  },
+  {
+    "city": "Manaus (AM)",
+    "ciclovias": 26.15,
+    "pop": 2054731,
+    "for_100mil": 1.27
+  },
+  {
+    "city": "Curitiba (PR)",
+    "ciclovias": 245.7,
+    "pop": 1871789,
+    "for_100mil": 13.13
+  },
+  {
+    "city": "Recife (PE)",
+    "ciclovias": 174.3,
+    "pop": 1494586,
+    "for_100mil": 11.66
+  },
+  {
+    "city": "Goiânia (GO)",
+    "ciclovias": 61.8,
+    "pop": 1414483,
+    "for_100mil": 4.36
+  }
+]

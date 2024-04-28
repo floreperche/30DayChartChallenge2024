@@ -1,0 +1,66 @@
+[
+  {
+    "year": 1949,
+    "Norte": 0,
+    "Nordeste": 0,
+    "Centro-Oeste": 0,
+    "Sudeste": 2,
+    "Sul": 1
+  },
+  {
+    "year": 1959,
+    "Norte": 2,
+    "Nordeste": 1,
+    "Centro-Oeste": 0,
+    "Sudeste": 0,
+    "Sul": 1
+  },
+  {
+    "year": 1969,
+    "Norte": 0,
+    "Nordeste": 2,
+    "Centro-Oeste": 3,
+    "Sudeste": 2,
+    "Sul": 1
+  },
+  {
+    "year": 1979,
+    "Norte": 3,
+    "Nordeste": 1,
+    "Centro-Oeste": 0,
+    "Sudeste": 2,
+    "Sul": 0
+  },
+  {
+    "year": 1989,
+    "Norte": 5,
+    "Nordeste": 5,
+    "Centro-Oeste": 2,
+    "Sudeste": 2,
+    "Sul": 2
+  },
+  {
+    "year": 1999,
+    "Norte": 2,
+    "Nordeste": 3,
+    "Centro-Oeste": 1,
+    "Sudeste": 2,
+    "Sul": 2
+  },
+  {
+    "year": 2009,
+    "Norte": 10,
+    "Nordeste": 5,
+    "Centro-Oeste": 1,
+    "Sudeste": 1,
+    "Sul": 4
+  },
+  {
+    "year": 2023,
+    "Norte": 2,
+    "Nordeste": 6,
+    "Centro-Oeste": 0,
+    "Sudeste": 1,
+    "Sul": 2
+  }
+]

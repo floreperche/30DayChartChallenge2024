@@ -123,19 +123,19 @@
     "day_count": 21,
     "theme": "green energy",
     "color": "#172546",
-    "available": "FALSE"
+    "available": "TRUE"
   },
   {
     "day_count": 22,
     "theme": "mobility",
-    "color": "#172547",
-    "available": "FALSE"
+    "color": "#42389F",
+    "available": "TRUE"
   },
   {
     "day_count": 23,
     "theme": "tiles",
-    "color": "#172548",
-    "available": "FALSE"
+    "color": "#2E769F",
+    "available": "TRUE"
   },
   {
     "day_count": 24,
